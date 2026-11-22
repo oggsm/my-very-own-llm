@@ -1,1 +1,1 @@
-# My-Very-Very-Own-LLM
+DEV Notes: Please always use .venv for Python Lib!
