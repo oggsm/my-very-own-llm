@@ -1,4 +1,4 @@
-# My Very Very Own LLM
+# My very very own LLM
 
 We are designing a primitive, home-made LLM with 20 million parameters. It is meant to run on the CPU of a home computer, and on a GPU as well.
 
