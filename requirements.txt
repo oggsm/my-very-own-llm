@@ -1,0 +1,23 @@
+# ---------------------------------------------------------------
+# USERS: you only want to run the program
+# ---------------------------------------------------------------
+# You do not need to install any package today. Python 3 is enough:
+#
+#   python3 chat.py
+#
+# ---------------------------------------------------------------
+# DEVELOPERS: you want to change the code or work on the model
+# ---------------------------------------------------------------
+# You need Python 3.12 or newer. Always use a virtual environment:
+#
+#   python3 -m venv .venv
+#   source .venv/bin/activate
+#
+# The current code does not use PyTorch yet, the model code will.
+# To get the same environment as ours, install these versions:
+#
+#   pip install torch==2.15.0 --index-url https://download.pytorch.org/whl/cpu
+#   pip install numpy==2.5.5
+#
+# Note: on Intel and AMD computers this PyTorch build contains
+# Intel MKL, which is not free software.
