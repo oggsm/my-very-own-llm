@@ -1,23 +1,7 @@
-prompt = input("prompt: ")
+def encode(text):
+    token_ids = list(text.encode("utf-8"))
+    return token_ids
 
-letters = sorted(set(prompt))
-
-letter_to_num = {}
-for num, letter in enumerate(letters):
-    letter_to_num[letter] = num
-
-num_to_letter = {}
-for letter, num in letter_to_num.items():
-    num_to_letter[num] = letter
-
-def encode(output):
-    nums = []
-    for letter in output:
-        nums.append(letter_to_num[letter])
-    return nums
-
-def decode(nums):
-    output = ""
-    for num in nums:
-        output = output + num_to_letter[num]
-    return output
+def decode(token_ids):
+    text = bytes(token_ids).decode("utf-8")
+    return text
