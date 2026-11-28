@@ -16,7 +16,7 @@ def make_examples(text, context_size):
 
 if __name__ == "__main__":
     for inputs, targets in make_examples("hello", 3):
-        print(inputs, "->", targets
+        print(inputs, "->", targets)
 
 
 
